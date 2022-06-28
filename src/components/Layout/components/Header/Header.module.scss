@@ -20,8 +20,17 @@
 .logo {
 }
 
-.search {
+.search,
+.search-result {
     width: 361px;
+}
+
+.search-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-left: 7px;
+}
+.search {
     height: var(--search-hight);
     padding-left: 16px;
     background-color: rgb(22, 24, 35, 0.06);
